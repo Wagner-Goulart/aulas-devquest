@@ -1,0 +1,25 @@
+@media (max-width: 660px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 100px;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li a {
+        font-size: 40px;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+    
+}

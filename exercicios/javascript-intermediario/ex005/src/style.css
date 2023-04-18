@@ -1,0 +1,100 @@
+body {
+    min-height: 100vh;
+}
+
+main {
+    height: 100vh;
+
+} 
+
+main .slides {
+        height: 100%;
+        width: 100%;
+        
+}
+
+main .slides img {
+    width: 100%;
+    position: fixed;
+}
+
+.slide {
+    position: relative;
+    display: none;
+    transition: 1s ease-in-out;
+}
+
+.slide .img-info {
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    width: 620px;
+    /* height: 700px; */
+    padding: 65px 60px;
+    border-radius:10px;
+    background-color: #FFF;
+    
+}
+
+.slide .img-info h1 {
+    font-size: 50px;
+    font-family: 400;
+    margin-bottom: 80px;
+}
+
+.slide .img-info p {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.slide .img-info a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+.mostrar {
+    display: block;
+}
+
+.opacidade {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.setas .seta-esquerda {
+    position: fixed;
+    left: 30px;
+    top: 40%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.setas .seta-direita {
+    position: fixed;
+    z-index: 5;
+    right: 30px;
+    top: 40%;
+    cursor: pointer;
+}
+
+
+.vermelho {
+    color: #C50000;
+}
+
+.amarelo {
+    color: #D9DD10;
+}
+.rosa {
+    color:#A63A17 ;
+}
+
+.azul {
+    color:#10ACDD ;
+}
+
+

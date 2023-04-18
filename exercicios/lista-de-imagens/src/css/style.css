@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    width: 320px;
+    height: 431px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.image-card:first-child {
+    margin-left: -10px;
+}
+
+.image-card h3,
+.image-card p {
+    color: #FFFFFF;
+    padding-left: 26px;
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+.image-card p {
+    margin-bottom: 43px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.rome {
+    background-image: url(../imagens/rome.png);
+}
+
+.boat-at-sea {
+    background-image: url(../imagens/boat.png);
+}
+
+.sand-and-sea {
+    background-image: url(../imagens/sand-and-sea.png);
+}
+
+.starry-at-night {
+    background-image: url(../imagens/starry-night.png);
+}

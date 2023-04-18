@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 655px;
+    height: 347px;
+    border-radius: 21px;
+    padding: 60px 50px;
+    background-color: #FCFCFC;
+}
+
+.container .logo {
+    flex-basis: 50%;
+}
+
+.container .logo img {
+    position: absolute;
+    top: 40px;
+    left: -100px;
+    width: 278px;
+    height: 293px;
+}
+
+.container .faq-container {
+    flex-basis: 100%;
+}
+
+.container .faq-container .faq-content {
+    border-bottom: 1px solid #D5D5D5;
+    margin-bottom: 15px;
+
+}
+
+.container .faq-container .faq-content:last-child{
+    border-bottom: none;
+}
+
+.faq-container .tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+.container .faq-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.container .faq-container h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.container .faq-container p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.container .faq-container .mostrar {
+  display: block;
+ 
+}

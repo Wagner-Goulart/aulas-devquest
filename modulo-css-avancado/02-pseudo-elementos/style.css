@@ -1,0 +1,28 @@
+/* seletor::pseudo-elemento {
+    propiedade : valor
+} */
+
+.first-letter::first-letter {
+    color: orange;
+}
+
+.first-line::first-line {
+    color: red;
+}
+
+li::marker {
+    color:brown;
+    font-size: 30px;
+}
+
+.before::before {
+    content: "";
+    background: url(https://via.placeholder.com/50) center center no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.after::after {
+    content:url(https://via.placeholder.com/50);
+}

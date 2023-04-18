@@ -1,0 +1,31 @@
+.titulo.laranja {
+    color: orange;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+p, span {
+    font-size: 15px;
+}
+
+.sobre  .texto {
+    color: royalblue;
+}
+
+div > p {
+    color: crimson
+}
+
+div + p {
+    color: blueviolet;
+}
+
+a[target=_blank] {
+    color: red;
+}

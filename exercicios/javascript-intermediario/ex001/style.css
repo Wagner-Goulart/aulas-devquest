@@ -1,0 +1,16 @@
+div {
+    width: 150px;
+    height: 150px;
+}
+
+.quadrado1 {
+    background-color: blue;
+}
+
+.quadrado2 {
+    background-color: red;
+}
+
+.altera-cor {
+    background-color: yellow;
+}

@@ -1,0 +1,65 @@
+.verde-claro {
+    background-color: aquamarine;
+}
+
+.azul {
+    background-color: cornflowerblue;
+}
+
+.rosa {
+    background-color: hotpink;
+}
+
+.laranja-escuro {
+    background-color: orangered;
+}
+
+.verde-forte {
+    background-color: green;
+}
+
+.marrom {
+    background-color: burlywood;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px;
+}
+
+.verde-claro {
+     /* grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-column: 1 / span 2;
+
+    grid-row-start: 1;
+    grid-row-end: 3; 
+
+    grid-row: 1 / span 2; */
+
+    /*
+        1- grid row start
+        2- grid colum start
+        3- grid row end
+        4- grid colum end
+    */
+    grid-area: 1 / 1 / span 2 / span 2 ;
+    padding: 50px;
+} 
+
+.azul {
+    grid-area: 1 /3 / 1 / span 3;
+    padding: 15px;
+}
+
+.rosa {
+    grid-area: 3 / 1 / 3 / span 2;
+    padding: 30px
+}
+
+.laranja-escuro {
+    grid-area: 2 / 3 / span 2 / span 2;
+}

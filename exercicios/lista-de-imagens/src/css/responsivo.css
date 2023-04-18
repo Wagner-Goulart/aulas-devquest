@@ -1,0 +1,15 @@
+@media (max-width: 1299px) {
+  .container {
+    flex-direction: column;
+    margin: 30px 0;
+  }
+
+  .image-card {
+    margin-bottom: 5px;
+  }
+
+  .image-card:first-child {
+    margin-left: 10px;
+}
+
+}

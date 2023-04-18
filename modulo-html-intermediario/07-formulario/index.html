@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    
+    <h3>Formulário com GET</h3>
+    <form method="get" action="index.html">
+        <input type="text" name="busca">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h3>Formulário com POST</h3>
+    <form method="Post" action="index.html">
+        <input type="text" name="busca">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h3>Formulário Login Facebook</h3>
+    <form action="index.html" method="GET" enctype="multipart/form-data">
+        <input type="text" name="nome" id="nome" placeholder="Nome">
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"><br><br>
+        <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou email">
+
+        <input type="password" name="senha" id="senha" placeholder="Nova senha">
+        <br><br>
+
+        <label>Data de Nascimento</label>
+        <select name="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <select name="mes">
+            <option value="jan">Jan</option>
+            <option value="fev">Fev</option>
+            <option value="mar">Mar</option>
+        </select>
+
+        <select name="ano">
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+        </select>
+
+        <br><br>
+
+        <label>Genero:</label>
+        <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+
+        <label for="outros">Outros</label>
+        <input type="radio" name="genero" id="outros" value="outros">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+    <br>
+    <br>
+
+    <input type="file">
+    
+    </form>
+</body>
+</html>

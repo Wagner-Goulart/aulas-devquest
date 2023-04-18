@@ -1,0 +1,17 @@
+a {
+   cursor: cell;
+   
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}

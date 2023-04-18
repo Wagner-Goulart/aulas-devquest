@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+:root {
+    --text-color: hsl(193, 38%, 86%);
+    --advice-dice-color: hsl(150, 100%, 66%);
+    --advice-card-color: hsl(217, 19%, 24%);
+    --background-color: hsl(218, 23%, 16%);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.container {
+    position: relative;
+    max-width: 350px;
+    background-color: var(--advice-card-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.conselho-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.conselho-card span {
+    align-self: center;
+    color: var(--advice-dice-color);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.conselho-card h3 {
+    text-align: justify;
+}
+
+.divisor-de-conteudo {
+    width: 100%;
+    margin: 30px;
+}
+
+.troca-conselho{
+    position: absolute;
+    background-color: var(--advice-dice-color);
+    padding:10px;
+    border-radius: 50%;
+    border: none;
+    left: 44%;
+    cursor: pointer;
+    
+}
+
+.troca-conselho img {
+    width: 80%;
+    height: 80%;
+    pointer-events: none;
+}
+
+.animation {
+    transform: rotate(180deg);
+}
+

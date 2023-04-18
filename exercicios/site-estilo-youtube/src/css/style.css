@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+span,
+strong {
+    display: block;
+    font-size: 11px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 300px;
+}
+.container {
+    width: 900px;
+    height: 415px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 17px;
+    grid-template-areas:"destaque aside" ;
+    background-color: #f7f7f7f7;
+    padding: 35px;
+}
+
+.video-em-destaque .titulo-do-video,
+.video-em-destaque .visualizacoes {
+    margin: 10px 0;
+}
+
+
+.aside {
+    width: 290px;
+    height: 56px;
+    grid-gap: 20px;
+    grid-area: aside;
+    display: grid;
+}
+
+.propaganda {
+    line-height: 56px;
+    text-align: center;
+    width: 290px;
+    height: 56px;
+    background-color: #C4C4C4;
+}
+
+.recomendacao {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 16px;
+
+}
+
+.autor,
+.visualizacoes,
+.dia-de-lancemento {
+    margin: 3px 0;
+}
+
+.thumb {
+    text-align: center;
+    line-height: 71px;
+    width: 101px;
+    height: 85px;
+    margin-bottom: 16px;
+    background-color: #C4C4C4;
+}
+

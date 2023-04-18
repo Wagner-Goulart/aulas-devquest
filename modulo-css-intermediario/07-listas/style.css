@@ -1,0 +1,11 @@
+ul {
+    /* list-style-image: url(./imagens/imagem-da-aula.png); */
+
+    list-style: square inside url(./imagens/imagem-da-aula.png);
+
+
+}
+
+ul li {
+    border: 1px solid black;
+}
