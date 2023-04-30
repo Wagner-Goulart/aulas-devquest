@@ -143,6 +143,15 @@ main {
   transition: 0.3s ease-in-out;
 }
 
+.container .profile-data .repositories ul li a span {
+  margin-left: 20px;
+}
+
+.container .profile-data .repositories ul li a span i {
+    width:16px;
+    height:16px
+}
+
 .container .profile-data .repositories ul li a:hover{
   background-color:hotpink;
   color: #fff
